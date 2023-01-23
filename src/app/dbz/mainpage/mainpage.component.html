@@ -5,10 +5,8 @@
     <div class="col">
         <h3>Personajes</h3>
         <hr>
-        <ul>
-            <li>Krilin 700</li>
-            <li>Goku 15000</li>
-            <li>Vegueta 11000</li>
+        <ul *ngFor="let x of personajes">
+            <li>{{x.nombre}} - {{x.poder}}</li>
         </ul>
     </div>
 
