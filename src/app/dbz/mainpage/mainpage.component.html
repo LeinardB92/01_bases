@@ -3,11 +3,7 @@
 
 <div class="row">
     <div class="col">
-        <h3>Personajes</h3>
-        <hr>
-        <ul *ngFor="let x of personajes">
-            <li>{{x.nombre}} - {{x.poder}}</li>
-        </ul>
+        <app-personajes [personajes]="personajes"></app-personajes>
     </div>
 
     <div class="col">

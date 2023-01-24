@@ -3,10 +3,12 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 
 import { MainpageComponent } from './mainpage/mainpage.component';
+import { PersonajesComponent } from './personajes/personajes.component';
 
 @NgModule({
   declarations: [
-    MainpageComponent
+    MainpageComponent,
+    PersonajesComponent
   ],
   imports: [
     CommonModule,
