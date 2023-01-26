@@ -11,21 +11,6 @@ export class MainpageComponent {
     nombre: '',
     poder: 0
   }
-  
-  personajes: Personaje[] = [
-    {
-      nombre: "Goku",
-      poder: 15000
-    },
-    {
-      nombre: "Vegueta",
-      poder: 7500
-    }
-  ]
 
-  agregarNuevoPersonaje(argumento: Personaje) {
-    this.personajes.push(argumento)
-  }
-
-  constructor(private dbzServices: DbzService){}
+  constructor(){}
 }

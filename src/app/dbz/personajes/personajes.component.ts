@@ -5,6 +5,9 @@ import { Personaje } from '../interfaces/dbz.interface';
   selector: 'app-personajes',
   templateUrl: './personajes.component.html',
 })
-export class PersonajesComponent {
-  @Input() personajes: Personaje[] = []
+export default class PersonajesComponent {
+  // @Input() personajes: Personaje[] = []
+
+  constructor
+
 }
