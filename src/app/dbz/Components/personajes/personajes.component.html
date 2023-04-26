@@ -1,6 +1,17 @@
 <h3>Personajes</h3>
 <hr>
-<ul *ngFor="let x of personajes">
-    <li>{{x.nombre}} - {{x.poder}}</li>
+<ul class="list-group">
+    <li class="list-group-item "
+        [ngClass]="{'list-group-item-primary': isLast}"
+        *ngFor="let x of personajes; let i = index;
+                let isFirst = first;
+                let isLast = last;
+                let isEven = even;
+                let isOdd = odd">
+
+        <span>{{ i + 1 }}</span>
+        {{x.nombre}} - {{x.poder}}
+
+    </li>
 </ul>
 

@@ -6,7 +6,7 @@ import { Personaje } from '../interfaces/dbz.interface';
   templateUrl: './mainpage.component.html',
 })
 export class MainpageComponent {
-  nuevo: Personaje = {
+  public nuevo: Personaje = {
     nombre: '',
     poder: 0
   }
