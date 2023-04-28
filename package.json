@@ -10,7 +10,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "delete:docs": "if exist docs rmdir docs /s/q",
-    "copy:dist": "Xcopy \"C:\\Users\\boane\\OneDrive\\Documentos\\Angular project\\Angular\\01_bases\\dist\" \"C:\\Users\\boane\\OneDrive\\Documentos\\Angular project\\Angular\\01_bases\\docs\" /i/e/h",
+    "copy:dist": "Xcopy \"C:\\Users\\boane\\OneDrive\\Documentos\\Angular project\\Angular\\01_bases\\dist\\bases\" \"C:\\Users\\boane\\OneDrive\\Documentos\\Angular project\\Angular\\01_bases\\docs\" /i/e/h",
     "delete:dist": "rmdir dist /s/q"
   },
   "private": true,
